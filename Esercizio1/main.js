@@ -13,8 +13,6 @@ function analizzaTesto(text) {
 	};
 	return risultato;
 }
-
 const testo = " Javasript é fantastico ";
 const risultatoAnalisi = analizzaTesto(testo);
-
 console.log(risultatoAnalisi);
