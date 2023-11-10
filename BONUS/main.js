@@ -20,8 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
 				};
 				return risultato;
 			}
-			const risultatoAnalisi = analizzaTesto(testo);
-			console.log(risultatoAnalisi);
+			const nuovaLista = document.createElement("p");
+			nuovaLista.textContent = inputValore;
+			document.body.appendChild(nuovaLista);
+			testoUtente.value = "";
 		} else {
 			alert("Inserisci del testo prima di inviare!");
 		}
